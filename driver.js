@@ -4,21 +4,19 @@
  */
 
 import ーorgasmoーadminーdriver from "@orgasmo/admin/driver";
-import ーorgasmoーjson from "@orgasmo/json";
+import ーorgasmoーmongo from "@orgasmo/mongo";
 
-const drivers = ["@orgasmo/admin/driver","@orgasmo/json"];
+const drivers = ["@orgasmo/admin/driver", "@orgasmo/mongo"];
 
 const driver = {
   ...ーorgasmoーadminーdriver,
-  ...ーorgasmoーjson,
-}
-
-
+  ...ーorgasmoーmongo,
+};
 
 export default driver;
 
 for (const driverName of drivers) {
-  const startMethodName = `${driverName.replace(/\//g, '.')}.start`;
+  const startMethodName = `${driverName.replace(/\//g, ".")}.start`;
   if (driver[startMethodName]) {
     driver[startMethodName](driver, drivers);
   }

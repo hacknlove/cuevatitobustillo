@@ -1,5 +1,5 @@
-import Area from '@orgasmo/orgasmo/Area';
+import Area from "@orgasmo/orgasmo/Area";
 
-export default function ArticleLayout () {
-    return <Area name="main" />
+export default function ArticleLayout() {
+  return <Area name="main" />;
 }

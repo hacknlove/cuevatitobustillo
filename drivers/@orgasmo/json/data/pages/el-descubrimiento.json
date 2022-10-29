@@ -463,9 +463,7 @@
           "type": "p",
           "props": {
             "className": "mb-6",
-            "children": [
-              "y en 1 mayo 2013 afirma que hasta el momento:"
-            ]
+            "children": ["y en 1 mayo 2013 afirma que hasta el momento:"]
           }
         },
         {
@@ -481,8 +479,7 @@
           "type": "Markdown",
           "props": {
             "className": "mb-6",
-            "markdown": 
-              "El ingeniero y especialista en topografía confirma que el hallazgo asturiano es _“una imagen cartográfica y minimalista del entorno de Ribadesella”_"
+            "markdown": "El ingeniero y especialista en topografía confirma que el hallazgo asturiano es _“una imagen cartográfica y minimalista del entorno de Ribadesella”_"
           }
         },
         {

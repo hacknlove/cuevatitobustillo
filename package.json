@@ -1,28 +1,29 @@
 {
-    "name": "cuevatitobustillo",
-    "version": "1.13.3",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint",
-        "test": "echo you should do testing!"
-    },
-    "dependencies": {
-        "@orgasmo/admin": "^1.13.4",
-        "@orgasmo/json": "^1.13.4",
-        "@orgasmo/mongo": "^1.13.4",
-        "@orgasmo/orgasmo": "^1.13.4",
-        "bulma": "^0.9.4",
-        "clsx": "^1.2.1",
-        "next": "^13.0.0",
-        "react": "18.2.0",
-        "react-dom": "18.2.0",
-        "react-markdown": "^8.0.3"
-    },
-    "devDependencies": {
-        "eslint": "8.23.0",
-        "eslint-config-next": "12.2.5"
-    }
+  "name": "cuevatitobustillo",
+  "version": "1.13.4",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo you should do testing!"
+  },
+  "dependencies": {
+    "@orgasmo/admin": "^1.13.4",
+    "@orgasmo/json": "^1.13.4",
+    "@orgasmo/mongo": "^1.13.4",
+    "@orgasmo/orgasmo": "^1.13.4",
+    "bulma": "^0.9.4",
+    "clsx": "^1.2.1",
+    "next": "^13.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.3"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "prettier": "^2.7.1"
+  }
 }
