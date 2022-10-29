@@ -12,6 +12,7 @@
     "dependencies": {
         "@orgasmo/admin": "^1.13.3",
         "@orgasmo/json": "1.13.3",
+        "@orgasmo/mongo": "^1.13.3",
         "@orgasmo/orgasmo": "1.13.3",
         "bulma": "^0.9.4",
         "clsx": "^1.2.1",
