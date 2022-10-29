@@ -1,0 +1,606 @@
+{
+  "pageId": "el-descubrimiento",
+  "exactPath": "/el-descubrimiento",
+  "layout": {
+    "name": "ArticleLayout"
+  },
+  "areas": {
+    "main": {
+      "items": [
+        {
+          "type": "Header"
+        },
+        {
+          "type": "ArticleTitle",
+          "props": {
+            "title": "El Descubrimiento",
+            "author": "Jesús Manuel Fernández Malvárez"
+          }
+        },
+        {
+          "type": "img",
+          "props": {
+            "className": "image is-fullwidth",
+            "src": "/images/TITO-BUSTILLO-Descubridores-1968-1350x833.png"
+          }
+        },
+        {
+          "type": "ArticleBody"
+        },
+        {
+          "type": "img",
+          "props": {
+            "className": "image is-fullwidth",
+            "src": "/mapa.webp"
+          }
+        },
+        {
+          "type": "Footer"
+        }
+      ]
+    },
+    "article": {
+      "items": [
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "    En los años sesenta era bastante frecuente que algunas pandillas de jóvenes organizaran jiras, meriendas, chocolatadas y guateques en los que se disfrutaba de lo lindo. Recuerdo algunas de las que, en Ribadesella, hacíamos a la “Fuente el Espinu”, a “Oba”, o a la “Cueva del Tenis o del Agua”. También la “Cuevona” era lugar habitual, y de visita casi obligada para los forasteros, a los que se solía mostrar: “El balcón”, “la Piedra el Pianu” y donde quedaban boquiabiertos admirando la luz que entraba por la lucera de la bóveda."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Las historias de cómo los vecinos se escondían en esta y otras cuevas “cuando la guerra” y el conocimiento de que se habían encontrado algunos restos en alguna de ellas, así como la presencia de pinturas en la Cueva de San Antonio, desbordaban a veces nuestra juvenil imaginación, llevándonos a correr alguna que otra aventura más o menos afortunada. Para unos, era la aventura por la aventura, para otros el guateque por sí mismo y, en los menos, a lo anterior se unía la afición por los minerales y el conocimiento de la naturaleza."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "En este caldo de cultivo se fraguó mi afición por la espeleología."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "En 1968 yo era alumno del Instituto Técnico Rey Pelayo de Cangas de Onís."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Nuestro horario era de lunes a viernes de nueve a una por la mañana y de tres y media a cinco y media por la tarde, y los sábados de nueve a una por la mañana."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "El día 16 de marzo de 1968, sábado, se presentaron en Ribadesella dos chicos pertenecientes al grupo Torreblanca de Oviedo que se dirigieron a la oficina de Información y Turismo, que en aquella época estaba en un tranvía estacionado junto al puente, para informarse de “donde vivía un chico alto, de gafas, que anda viendo cuevas“."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Julio, el encargado de la oficina, llamó a Manolo Canto jefe de la Guardia Municipal en aquellas fechas, para que los acompañara hasta mi casa. Cuando llegaron a mi casa mi hermana les dijo que yo no llegaría del instituto hasta las cuatro de la tarde."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Al llegar a casa, mi hermana me comentó que habían estado allí unos chicos preguntando por mí."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Después de comer, sobre las cuatro y media o las cinco de la tarde, los chicos regresaron. Resultaron ser Elías y Fernando, y su intención era que les mostrara el mayor número posible de cuevas del concejo, ya que debían completar un cupo de metros, tanto horizontales como verticales, a efectos de baremo federativo. Después de hablar bastante rato en mi casa,  y como les comenté que solía salir con Adolfo Inda Sanjuán, otro riosellano interesado por las cuevas, fuimos en busca de él y los cuatro continuamos haciendo planes sobre lo que podríamos visitar de forma más o menos inmediata."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "El día 17, con la llegada del resto del grupo, empezamos por visitar las cavidades de Ia zona oriental del concejo, subiendo a Peme, donde descartamos ir a “Conegra“ por dificultades, digamos técnicas, ya que unos fieros perros nos lo impidieron, prefiriendo, en cambio, hacer la travesía del “Tinganón“, desde donde nos desplazamos hasta Collera, lugar en que visitamos la “Cueva del Barru“, anteriormente denominada “del Cristal“; después bajamos a la “Sima l'Utre“ y, abandonada esta, intentamos visitar “San Antonio“, objetivo que no logramos realizar al no poder conseguir la llave."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "El día 18 lo dedicamos a visitar “La Cuevona“, la “Cueva del Agua“, también llamada “del Tenis“ o de “La Viesca” y “La Lloseta“. Esta última era la que conocíamos en Ribadesella como la “Cueva de Ardines“."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Saliendo de esta, casi entre dos luces, comentamos Adolfo y yo que allí mismo había una sima, que si bien conocíamos su existencia, nunca habíamos bajado por ella, pero que, siendo diez personas y al parecer con suficiente material, era una pena desaprovechar la ocasión."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Puesto de acuerdo el grupo se atacó el “Pozu del Ramu“, o “La Cerezal“, ya que hay confusión con los nombres de dos cuevas colindantes y con entrada en una misma finca."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Se realizó el descenso del primer tramo, que es una especie de saco inclinado en el que se podía ver perfectamente con la luz natural; luego se forzó el descenso por el paso propiamente dicho hasta un punto en el que consideramos excesivamente peligroso continuar descendiendo; entonces optamos por atravesar una gatera (paso estrecho) lateral y, descendiendo por una especie de balcón y una colada estalagmítica, por fin logramos terminar el descenso al llegar a la propia planta de la cueva. En total utilizamos 120 m de cuerda, que deben corresponder a unos 80 m de altura en vertical."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Allá abajo echamos un ligero vistazo a la galería que se encontraba a nuestra izquierda, caminando entre bloques de piedra hasta llegar a un derrumbamiento que nos impidió continuar, regresando después sobre nuestros pasos y, tras rebasar el lugar por donde habíamos bajado, llegamos al entronque de las tres galerías que conforman la planta de la cueva. En este punto decidimos abandonar la exploración por aquel día."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Cuando salimos ya era muy tarde y como el día 19 nuestros amigos de Oviedo tenían que estar en sus domicilios (celebración de San José y el Día del Padre), acordamos reunirnos de nuevo durante las próximas vacaciones de Semana Santa al objeto de proseguir la exploración de la cueva."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "De este modo, el 11 de abril, día de Jueves Santo, ya de mañana y bien pertrechados, penetramos nuevamente en el “Pozu del Ramu“ y, una vez efectuado el descenso, volvimos a explorar la galería de la izquierda hasta el caos de bloques desprendidos por el derrumbe que nos impedía llegar a lo que luego se supo era la entrada original de la gruta regresando a continuación y dirigiéndonos al entronque de las tres galerías tal y como habíamos hecho en la anterior visita. Elegimos continuar la exploración por la de la izquierda, llegando hasta un derrumbamiento que le daba fin, cortando el paso que en otro tiempo permitía la comunicación con otras galerías. (En aquel momento pensamos que podría ser La Cuevona)"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Allí, en la zona de la “Gran Columna“, aprovechamos el copioso goteo de una estalactita para asearnos un poco y nos dispusimos a reponer fuerzas, acomodándonos dispersos por la zona."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Alguna de las componentes del grupo dice recordar el sabor de la “sardinas de lata con arena de cueva”"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "De pronto Adolfo Inda, que se había separado un poco del grupo, comenzó a gritar diciéndonos que había pinturas y, si bien en un principio se lo tomamos a broma, paulatinamente fuimos aproximándonos todos hacia el lugar donde se hallaba. ¡Era cierto! Había encontrado la ahora denominada “Camarín de las Vulvas“. La alegría fue inmensa"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "El retorno se efectuó revisando cuidadosamente las paredes sin resultados, pero la apoteosis llegó cuando a Tito, que iba un poco adelantado con Amparo y Fernando, se le apagó la lámpara de carburo y al encenderla de nuevo, el fogonazo le permitió ver una extraordinaria cabeza de caballo... A sus voces acudimos todos corriendo y nos pusimos a examinar el tramo de galería que nos quedaba por explorar y descubrir, entre asombrados e incrédulos, un caballo..., otro..., un ciervo…"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "El “Panel Principal“ aparecía majestuoso ante nuestros asombrados ojos."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Estábamos excitadísimos, pero no tanto como para no darnos cuenta de que nadie nos iba a creer si no aportábamos pruebas fehacientes de aquel descubrimiento. Por ello nos conjuramos al silencio, salimos de la cueva y nos dedicamos a buscar entre parientes y amigos, máquinas fotográficas y flashes con los que poder dar testimonio de lo que habíamos encontrado."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "De aquella noche recuerdo muy especialmente la charla que tuve con D. José Castaño, coadjutor de la parroquia y su hermano Ramón, al objeto de conseguir prestados unos flashes y una lámpara para intentar filmar en la cueva, y el tira y afloja para convencerlos de la importancia de conseguir aquel material sin revelar el hallazgo. Creo que realmente no llegaron a captar la trascendencia de obtener unas buenas imágenes, ni del alcance que aquello llegaría a tener para Ribadesella. A fin de cuentas... ¡Qué iban a hacer unos chavales de dieciocho años!"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Al día siguiente, 12, descendimos nuevamente, ya con una Kodak con cuboflash y otras cámaras con flashes de lámpara desechable (de un solo destello). También aprovechábamos el fogonazo de un flash para captar fotografías con otras cámaras en exposición. De este modo obtuvimos las pruebas necesarias. En esta labor nos transcurrió el día."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Ya de tarde, entre las 7 y las 8, intentamos localizar al alcalde de Ribadesella (D. Segundo Ruisánchez) como primera autoridad de la villa, para notificarle el hallazgo. No conseguimos localizarlo por lo que, sobre las 9 de la noche, y desde la cafetería “Las Vegas“, cuyo dueño D. Manuel Ampudia Vega fue uno de los primeros en enterarse, se dio la noticia del descubrimiento al diario La Nueva España, y a algunos familiares y allegados. "
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "La Nueva España nos comunicó que el domingo se desplazarían a Ribadesella enviados especiales para hacer un reportaje."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "El día 13 lo empleamos en seguir revisando la cueva, así como en arreglar un poco el pozo para facilitar el descenso a los periodistas y personalidades que iban a venir."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Durante el II Campamento Regional de Espeleología (28 al 30 de junio de 1968) se estaban haciendo los estudios iniciales de la cueva y sus pinturas."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Había un constante tráfico de personal entre las distintas zonas de la cueva y entre esta y el exterior."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Los que habíamos formado parte de la expedición que descubrió la cueva, como conocedores del terreno, estábamos repartidos entre los varios grupos de trabajo. En mi caso fui destinado como apoyo al telefonillo que se instaló entre el exterior y la base en la cueva con el objeto de evitar problemas entre los que bajaban y los que subían por el pozo, y facilitar las comunicaciones entre la superficie y el interior."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Estando en este puesto alguien nos comentó que “habían encontrado un sitio en el que había pintados números romanos”. Esto me llamó la atención y, en cuanto pude, fui ver el reciente hallazgo."
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "markdown": "Estaban al fondo de la cueva (por donde hoy se comienza a hacer la visita) en la zona del “Camarín de las vulvas“ a las que, antes de darles esa interpretación, se citaban simplemente como _escutiformes_, o sea figuras con forma de escudo."
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "En la pared opuesta a esta diminuta sala dedicada, según parece ser, a la fecundidad, aparece toda una serie de grabados, puntos y manchas de pintura."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "En mitad de la galería, entre la covacha y el panel de la pared contraria, hay un grupo de bloques de piedra y en uno de ellos aparecen dos líneas, sensiblemente paralelas y una serie de puntos y manchas repartidos por la superficie."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "El grupo observa detenidamente el bloque. Hablan los expertos."
+            ]
+          }
+        },
+        {
+          "type": "img",
+          "props": {
+            "className": "image is-fullwidth",
+            "src": "/signos.webp"
+          }
+        },
+        {
+          "type": "Markdown",
+          "className": "mb-6",
+          "props": {
+            "markdown": "— ¿Qué puede ser esto?\n\nCada cual da su opinión.\n\n_— A mí me parece un mapa; una especie de croquis de la zona._ — Aventuro…\n\nLo más, uno me dice:\n\n_— Calla hombre. ¿No ves que en aquella época los primitivos no tenían conocimientos de ese tipo? Para hacer un plano hay que tener una capacidad de abstracción bastante grande, y ellos todavía no la tenían._"
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Insistí, pero lo dicho, ni caso. ¿Quién iba a hacer caso hace cincuenta y pico años  de lo que dijera un chavalete de diecisiete?"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Hoy sigo pensando lo mismo que pensaba en aquellas fechas:"
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "markdown": "_“A mí me parece un mapa.”_"
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Como ya señalé antes, yo en aquellos días estudiaba Bachillerato Técnico Superior, en el que, entre otras asignaturas, estudiábamos Dibujo Técnico, y en particular dibujo topográfico; además era un buen conocedor del macizo de Ardines, lo que en Ribadesella llamábamos La Moría, y estaba harto de patear el terreno. Se puede decir que conocía el concejo como la palma de mi mano, por lo que no es extraño que lo que para otras personas eran unas líneas sin sentido yo lo identificara como un croquis de la zona."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "En cuanto a la capacidad o no, del hombre primitivo para llegar a la abstracción “realidad geográfica-imagen representativa de dicha realidad”, D. Pelayo Gómez-Pumariega, a la sazón profesor en la Escuela de Topografía de Mieres, me comenta:"
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "markdown": "_“No se puede dudar de que aquellos individuos tenían que tener perfectamente asimilado, de forma conceptual, el territorio en el que se desenvolvían, puesto que de ello dependía su supervivencia. El paso de convertir ese “mapa mental“ en representación gráfica no debió suponer un gran esfuerzo para artistas capaces de lograr representaciones como las que han llegado hasta nuestros días.”_"
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "y el difunto Miguel Angel García Guinea ex director del Instituto de Prehistoria y Arqueología “Sautuola” de Cantabria, me dice:"
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "markdown": "_“Estimo que su hipótesis no es, de ninguna manera, descabellada, sino perfectamente posible…  … que es enormemente sugestiva… … y digna de que fuese una verdad absoluta… … quien llega a realizar los magníficos bisontes de Altamira, el conjunto de animales de Tito Bustillo, o los inigualables leones de Chauvet, y que sabe ya expresarse en símbolos, yo no dudo que tuviese capacidad para hacer un boceto de un recorrido. Por eso, su teoría del mapa me parece, razonablemente, muy posible, pero nunca podrá transformarse en “verdad absoluta“, y si, en una hipótesis muy acertada y original que, desde ahora, ha de tenerse en cuenta“_"
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "De igual modo, D. Mario Ruiz Morales Ingeniero Geógrafo de la  Universidad de Granada en su “ENSAYO HISTORICO DE CARTOGRAFIA URBANA”  publicado en julio de 2001 dice:"
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "markdown": "_“En la moderna antropología se supone que las ideas geométricas del espacio y de su representación pudieron haber surgido ya en la edad de piedra. De hecho, en el llamado arte paleolítico aparecen numerosos ejemplos de petroglifos en los que además de estrellas aisladas figuran constelaciones, como la osa mayor, y primitivas manifestaciones cosmológicas que simbolizan la interdependencia Tierra - Cosmos mediante el rectángulo y el círculo. Dichas representaciones se han mantenido, prácticamente hasta nuestros días, en pueblos indígenas tan poco desarrollados como los mongólicos de Koriasksky (al Oeste del Mar de Bering) y los indios paunis de Nebraska. En el paleolítico aparecen asimismo lo que podríamos denominar mapas prehistóricos, entendiendo por tales diversos grabados sobre roca que representan una distribución espacial de objetos y sucesos. El caso más conocido es el conjunto monumental de Bedolina (Capo di Ponte. Italia) con un tamaño de 2.3x4.2m y datado entre los siglos XX y XV a. C. Sin embargo, la primera representación del entorno inmediato, verdaderamente documentada, es mucho más remota, debiendo comenzar con ella la cronología de la cartografía histórica. Se trata del plano mural de Çatal-Hüyük encontrado en el año 1963 por J. Mellaart cuando realizaba excavaciones en el yacimiento situado en la provincia de Konya, al oeste de Turquía. Mediante el método del radiocarbono se dató en torno al año 6200 a.C. En el muro no solo aparece un plano de un núcleo urbano del neolítico (probablemente el mismo Çatal-Hüyük), sino que figura también, detrás de las viviendas, el perfil abatido de una montaña con dos promontorios, uno de los cuales es asociado por Mellaart con el volcán Hasan-Dag en erupción; este ejemplo es, por tanto, el más remoto antecedente de cartografía urbana y temática.”_"
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "y en 1 mayo 2013 afirma que hasta el momento:"
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "_“El mapa de Tito Bustillo es el más antiguo de la Humanidad”_"
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "markdown": 
+              "El ingeniero y especialista en topografía confirma que el hallazgo asturiano es _“una imagen cartográfica y minimalista del entorno de Ribadesella”_"
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Retomando el tema de la capacidad del habitante de “Tito Bustillo” para dibujar un mapa del territorio en que se desenvolvía su peripecia vital, considero que no se le puede negar dicha capacidad, y, acto seguido, sugerir que una de las imágenes de la “Covacha de las Vulvas” es punto menos que una radiografía de una mujer de perfil, con representación de su aparato genital, o pretender que las “Digitaciones pareadas” son una especie de “origen de la escritura” según noticia publicada en el diario “La Voz de Asturias” el 6 de junio de 2005:"
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "markdown": "_“Una de las particularidades que destaca es la de los signos que aparecen en uno de los paneles de la cueva, trazos de dedos pareados que, para este experto, son «un sistema de comunicación». Balbín considera que ese panel de signos es «muy interesante». En su opinión son los «sistemas gráficos del Paleolítico Superior» y  servían para «contar cosas»_\n\n_Esta especie de escritura tiene 22.000 años de antigüedad. Sobre todo aparece en un enorme panel que contiene más de veinte signos pareados, digitaciones, hechos con dos dedos juntos, lo que forma líneas paralelas…”.”_"
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Ante estas muestras de capacidad de abstracción, mi posición se reafirma y me lleva a aseverar que, efectivamente, el hombre de “Tito Bustillo” se sirvió de unos “signos” pintados en la roca para contar a otros miembros de su tribu, clan o especie en que lugares podía conseguir alimento, refugio, o vadear el río que dividía su territorio."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "El hombre prehistórico nos dejó en multitud de paredes de diversas grutas y abrigos la muestra de su arte pictórico, presentándonos excelentes figuras de animales de bella factura en la zona franco-cantábrica, la simplicidad esquemática de algunas escenas en la zona mediterránea, estupendas muestras de decoración en utensilios de hueso, asta, lajas de piedra o cerámica y magníficos trabajos en agujas, arpones, abalorios y diversos objetos. Pero al lado de todas esas muestras artísticas aparecen en ocasiones trazos y figuras que somos incapaces de identificar. Ante nuestra incapacidad de adjudicarles un significado o misión, solemos decir sencillamente que son “signos”."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Entre las múltiples teorías que intentan explicar el porqué de estas muestras de arte las hay de todo tipo, desde las religiosas hasta las puramente decorativas, pasando por las mágicas, pero todas pretenden que las figuras y signos tienen alguna finalidad."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Pues bien, respecto al grupo de signos que aparecen en un bloque de esta zona, es mi opinión que tiene como finalidad formar lo que llamaríamos un mapa o croquis del terreno de Ribadesella, ya que interpreto que en ella se pueden encontrar indicaciones gráficas que podrían utilizarse para encontrar lugares donde cubrir parte de los intereses fundamentales de supervivencia del ser humano"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Del arte Paleolítico conocemos, espléndidas imágenes de figuras animales y humanas, pero a veces encontramos trazos o figuras para los que carecemos de explicación, ya que no podemos identificarlos o encontrarles significado."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Estos trazos o figuras los denominamos en función de su relativo parecido a objetos que si conocemos, o por el tipo de técnica utilizada en su ejecución.  Así hablamos de tectiformes, escutiformes, claviformes, laciformes, digitalizaciones, digitalizaciones pareadas…"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Actualmente, hay varios prehistoriadores que defienden que estas últimas son una especie de intento de inicio de escritura y que sirven «para contar algo»."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Tenemos tendencia a buscar el significado de estos signos tomándolos independientemente."
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "Pero… ¿No podría ser conveniente buscar el mensaje encerrado en los signos observando la relación espacial entre unos y otros?"
+            ]
+          }
+        },
+        {
+          "type": "p",
+          "props": {
+            "className": "mb-6",
+            "children": [
+              "En el caso del conjunto píctórico que nos ocupa, las distancias y posiciones entre sus signos se corresponde casi perfectamente con las distancias y posiciones de ríos, cuevas, y pedreros de la zona, observándose además una correspondencia entre misma forma de símbolo y mismo tipo de accidente geográfico."
+            ]
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "className": "mb-6",
+            "markdown": "A mí, me sigue pareciendo un mapa. ¿Y a ti?"
+          }
+        }
+      ],
+      "mode": "bubble",
+      "ssrSize": 5
+    }
+  }
+}

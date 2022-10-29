@@ -1,0 +1,53 @@
+{
+  "pageId": "como-llegar",
+  "exactPath": "/como-llegar",
+  "layout": {
+    "name": "ArticleLayout"
+  },
+  "areas": {
+    "main": {
+      "items": [
+        {
+          "type": "Header"
+        },
+        {
+          "type": "ArticleTitle",
+          "props": {
+            "title": "Cómo llegar",
+            "author": "Pintor anónimo, hace 30.000 años."
+          }
+        },
+        {
+          "type": "img",
+          "props": {
+            "className": "image is-fullwidth",
+            "src": "/mapa.webp"
+          }
+        },
+        {
+          "type": "ArticleBody"
+        },
+        {
+          "type": "Footer"
+        }
+      ]
+    },
+    "article": {
+      "items": [
+        {
+          "type": "Markdown",
+          "className": "mb-6",
+          "props": {
+            "markdown": "La cueva «Tito Bustillo» se encuentra en ribadesella, en el margen occidental del Río sella, a trescientos metros río arriba desde el puente."
+          }
+        },
+        {
+          "type": "Markdown",
+          "props": {
+            "markdown": "**Coordenadas:** `43.4623619,-5.0681267`"
+          }
+        }
+      ]
+    }
+  }
+}

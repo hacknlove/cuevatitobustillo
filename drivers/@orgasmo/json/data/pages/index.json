@@ -1,0 +1,26 @@
+{
+  "pageId": "home",
+  "exactPath": "/",
+  "areas": {
+    "footer": {
+      "items": [
+        {
+          "type": "Header"
+        },
+        {
+          "type": "Hero"
+        },
+        {
+          "type": "img",
+          "props": {
+            "className": "image is-fullwidth",
+            "src": "/signos.webp"
+          }
+        },
+        {
+          "type": "Footer"
+        }
+      ]
+    }
+  }
+}
