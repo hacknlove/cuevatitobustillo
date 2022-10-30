@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-export default function Hero() {
+export default function Hero({ title, text }) {
   return (
     <div>
       <section
@@ -15,14 +15,10 @@ export default function Hero() {
           <div className="columns">
             <div className="column pt-8-tablet mb-12 mb-0-tablet">
               <small className="is-block has-text-white has-text-weight-semibold is-uppercase mb-2">
-                <span>LA JOYA DEL</span>
-                <span className="has-text-success">ARTE PALEOLÍTICO</span>
+                {title}
               </small>
 
-              <p className="has-text-white has-mw-xl title">
-                La cueva «Tito Bustillo» (en Ribadesella, Asturias) alberga
-                pinturas rupestres realizadas entre el 33.000 hasta el 10.000 a.
-                C. algunas de ellas de carácter único y sorprendente.
+              <p className="has-text-white has-mw-xl title">{text}
               </p>
             </div>
             <div className="column">

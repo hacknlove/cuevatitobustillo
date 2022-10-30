@@ -7,6 +7,14 @@ export default function Footer() {
         <div className="columns is-align-items-center mb-0">
           <div className="column is-8 mb-12 mb-0-tablet">
             <ul className="is-flex-tablet">
+            <li className="mb-6 mb-0-tablet ml-16-tablet">
+                <Link
+                  className="title is-size-6 has-text-white"
+                  href="/la-cueva"
+                >
+                  La cueva
+                </Link>
+              </li>
               <li className="mb-6 mb-0-tablet ml-16-tablet">
                 <Link
                   className="title is-size-6 has-text-white"

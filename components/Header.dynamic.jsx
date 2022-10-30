@@ -39,6 +39,14 @@ export default function Header() {
           <div className="navbar-menu">
             <div className="navbar-start">
               <ul className="navbar-item pl-0">
+              <li>
+                  <Link
+                    className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
+                    href="/la-cueva"
+                  >
+                    La cueva
+                  </Link>
+                </li>
                 <li>
                   <Link
                     className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
