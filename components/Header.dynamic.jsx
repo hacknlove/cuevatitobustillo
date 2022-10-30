@@ -109,12 +109,28 @@ export default function Header() {
               />
             </Link>
             <ul className="menu-list title is-size-6">
+            <li onClick={close}>
+                <Link
+                  className="py-4 px-6 has-text-grey-darker"
+                  href="/la-cueva"
+                >
+                  La cueva
+                </Link>
+              </li>
               <li onClick={close}>
                 <Link
                   className="py-4 px-6 has-text-grey-darker"
                   href="/el-descubrimiento"
                 >
                   El descubrimiento
+                </Link>
+              </li>
+              <li onClick={close}>
+                <Link
+                  className="py-4 px-6 has-text-grey-darker"
+                  href="/el-mapa"
+                >
+                  El mapa
                 </Link>
               </li>
               <li onClick={close}>
