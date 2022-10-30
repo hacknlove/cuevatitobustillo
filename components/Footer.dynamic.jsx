@@ -15,6 +15,14 @@ export default function Footer() {
                   El descubrimiento
                 </Link>
               </li>
+              <li className="mb-6 mb-0-tablet ml-16-tablet">
+                <Link
+                  className="title is-size-6 has-text-white"
+                  href="/el-mapa"
+                >
+                  El mapa
+                </Link>
+              </li>
               <li>
                 <Link
                   className="title is-size-6 has-text-white ml-16-tablet"

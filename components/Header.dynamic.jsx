@@ -50,6 +50,14 @@ export default function Header() {
                 <li>
                   <Link
                     className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
+                    href="/el-mapa"
+                  >
+                    El mapa
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
                     href="/como-llegar"
                   >
                     Cómo llegar
