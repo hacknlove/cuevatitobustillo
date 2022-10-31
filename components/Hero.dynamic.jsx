@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 /* eslint-disable @next/next/no-img-element */
 export default function Hero({ title, text }) {
   return (
@@ -23,10 +25,12 @@ export default function Hero({ title, text }) {
               </p>
             </div>
             <div className="column">
-              <img
+              <Image
                 className="image mx-auto"
-                src="images/http-com-ft-imagepublish-upp-prod-eu-s3-amazonaws.avif"
+                src="/images/http-com-ft-imagepublish-upp-prod-eu-s3-amazonaws.avif"
                 alt=""
+                width={700}
+                height={744}
               />
             </div>
           </div>
