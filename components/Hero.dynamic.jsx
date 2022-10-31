@@ -18,7 +18,8 @@ export default function Hero({ title, text }) {
                 {title}
               </small>
 
-              <p className="has-text-white has-mw-xl title hero-title">{text}
+              <p className="has-text-white has-mw-xl title hero-title">
+                {text}
               </p>
             </div>
             <div className="column">

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import clsx from "clsx";
 
-export default function Header() {
+export default function Header({ links }) {
   const [isHidden, setIsHidden] = useState(true);
 
   function close() {
@@ -39,38 +39,17 @@ export default function Header() {
           <div className="navbar-menu">
             <div className="navbar-start">
               <ul className="navbar-item pl-0">
-              <li>
-                  <Link
-                    className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
-                    href="/la-cueva"
-                  >
-                    La cueva
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
-                    href="/el-descubrimiento"
-                  >
-                    El descubrimiento
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
-                    href="/el-mapa"
-                  >
-                    El mapa
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
-                    href="/como-llegar"
-                  >
-                    Cómo llegar
-                  </Link>
-                </li>
+                {links &&
+                  links.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
+                        href={link.href}
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
               </ul>
             </div>
           </div>
@@ -109,7 +88,7 @@ export default function Header() {
               />
             </Link>
             <ul className="menu-list title is-size-6">
-            <li onClick={close}>
+              <li onClick={close}>
                 <Link
                   className="py-4 px-6 has-text-grey-darker"
                   href="/la-cueva"
