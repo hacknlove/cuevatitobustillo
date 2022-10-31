@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "test": "echo you should do testing!",
-    "lint": "eslint . --fix",
-    "lint.ci": "eslint .",
+    "lint": "next lint --fix",
+    "lint.ci": "next lint",
     "pretty": "prettier --write .",
     "prettylint": "npm run lint && npm run pretty"
   },
