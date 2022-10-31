@@ -7,12 +7,16 @@ export default function Hero({ title, text }) {
       <section
         className="section"
         style={{
-          backgroundImage:
-            "url('/acros-assets/images/headers/header-1-bg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          position: "relative",
         }}
       >
+        <Image
+          src="/acros-assets/images/headers/header-1-bg.jpg"
+          alt="background"
+          className="background"
+          width={1440}
+          height={640}
+        />
         <div className="container">
           <div className="columns">
             <div className="column pt-8-tablet mb-12 mb-0-tablet">
@@ -28,7 +32,7 @@ export default function Hero({ title, text }) {
               <Image
                 className="image mx-auto"
                 src="/images/http-com-ft-imagepublish-upp-prod-eu-s3-amazonaws.avif"
-                alt=""
+                alt="Pintura rupestre de una cabeza de caballo"
                 width={700}
                 height={744}
               />

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import clsx from "clsx";
+import Image from "next/image";
 
 export default function Header({ links }) {
   const [isHidden, setIsHidden] = useState(true);
@@ -14,13 +15,14 @@ export default function Header({ links }) {
       <nav className="navbar py-2 has-background-grey-darker">
         <div className="container px-8-mobile">
           <div className="navbar-brand is-align-items-center">
-            <Link className="navbar-item" href="/">
+            <Link className="navbar-item" href="/" title="home">
               <span className="px-0 title is-size-4 has-text-white">
-                <img
+                <Image
                   src="/acros-assets/cabezadecaballo.png"
-                  style={{ maxHeight: 50 }}
-                  alt=""
-                  width="auto"
+                  style={{ maxHeight: 50, width: "auto" }}
+                  width={500}
+                  height={712}
+                  alt="Logo, cabeza de caballo"
                 />
               </span>
             </Link>
@@ -30,6 +32,7 @@ export default function Header({ links }) {
               type="button"
               data-toggle="side-menu"
               onClick={() => setIsHidden(false)}
+              title="menu"
             >
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
@@ -45,6 +48,7 @@ export default function Header({ links }) {
                       <Link
                         className="title is-size-6 has-text-white has-text-weight-normal navbar-item"
                         href={link.href}
+                        title={link.label}
                       >
                         {link.label}
                       </Link>
@@ -68,7 +72,7 @@ export default function Header({ links }) {
             className="navbar-close is-absolute is-right-0 mt-6 mr-6"
             onClick={close}
           >
-            <img src="acros-assets/icons/mobile-decline.svg" alt="" />
+            <img src="acros-assets/icons/mobile-decline.svg" alt="close menu" />
           </div>
         </div>
         <aside
@@ -79,6 +83,7 @@ export default function Header({ links }) {
             <Link
               href="/"
               className="navbar-item title is-size-4 has-text-dark pl-4 mb-5"
+              title="home"
             >
               <img
                 src="acros-assets/cabezadecaballo.png"
@@ -88,38 +93,18 @@ export default function Header({ links }) {
               />
             </Link>
             <ul className="menu-list title is-size-6">
-              <li onClick={close}>
-                <Link
-                  className="py-4 px-6 has-text-grey-darker"
-                  href="/la-cueva"
-                >
-                  La cueva
-                </Link>
-              </li>
-              <li onClick={close}>
-                <Link
-                  className="py-4 px-6 has-text-grey-darker"
-                  href="/el-descubrimiento"
-                >
-                  El descubrimiento
-                </Link>
-              </li>
-              <li onClick={close}>
-                <Link
-                  className="py-4 px-6 has-text-grey-darker"
-                  href="/el-mapa"
-                >
-                  El mapa
-                </Link>
-              </li>
-              <li onClick={close}>
-                <Link
-                  className="py-4 px-6 has-text-grey-darker"
-                  href="/como-llegar"
-                >
-                  Cómo llegar
-                </Link>
-              </li>
+              {links &&
+                links.map((link) => (
+                  <li onClick={close} key={link.href}>
+                    <Link
+                      className="py-4 px-6 has-text-grey-darker"
+                      href={link.href}
+                      title={link.label}
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
             </ul>
           </div>
         </aside>
