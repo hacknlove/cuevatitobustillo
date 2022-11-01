@@ -1,5 +1,5 @@
 import ReactMarkdown from "react-markdown";
-import { Components } from "../DComponent";
+import Components from "../Components";
 
 export default function ArticleBody({ markdown, className, style, ...props }) {
   return (
