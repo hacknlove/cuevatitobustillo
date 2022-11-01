@@ -1,6 +1,6 @@
 {
   "name": "cuevatitobustillo",
-  "version": "1.13.6",
+  "version": "1.13.7",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,10 +13,10 @@
     "prettylint": "npm run lint && npm run pretty"
   },
   "dependencies": {
-    "@orgasmo/admin": "^1.13.6",
-    "@orgasmo/json": "^1.13.6",
-    "@orgasmo/mongo": "^1.13.6",
-    "@orgasmo/orgasmo": "^1.13.6",
+    "@orgasmo/admin": "^1.13.7",
+    "@orgasmo/json": "^1.13.7",
+    "@orgasmo/mongo": "^1.13.7",
+    "@orgasmo/orgasmo": "^1.13.7",
     "bulma": "^0.9.4",
     "clsx": "^1.2.1",
     "next": "^13.0.0",
